@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="InputView">
+        <attr name="keySize" format="dimension" />
+        <attr name="keyColor" format="color" />
+        <attr name="key" format="string" />
+        <attr name="padding" format="dimension"/>
+        <attr name="valueMargainLefttoParent" format="dimension" />
+        <attr name="valueSize" format="dimension" />
+        <attr name="valueColor" format="color" />
+        <attr name="valuehint" format="string"/>
+        <attr name="valueRight" format="boolean"/>
+        <attr name="inputTypePassword" format="boolean"/>
+        <attr name="digits" format="string"/>
+    </declare-styleable>
+
+
+</resources>
