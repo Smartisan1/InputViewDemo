@@ -1,5 +1,7 @@
 # InputViewDemo
 此空间为常用的输入框 左边为key右边为输入框的value  
+![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
+
 使用方法
 第一 在Project 的build.gradle
 in your root build.gradle at the end of repositories:
