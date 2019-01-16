@@ -22,9 +22,12 @@ public class InputView extends RelativeLayout {
     private  EditText etValue;
 
 
+    public InputView(Context context) {
+        this(context, null);
+    }
+
     public InputView(Context context, AttributeSet attrs) {
-        super(context, attrs);
-        initView(context, attrs);
+        this(context, attrs, 0);
     }
 
     public InputView(Context context, AttributeSet attrs, int defStyleAttr) {
