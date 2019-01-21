@@ -1,9 +1,9 @@
 # InputViewDemo
-此空间为常用的输入框 左边为key右边为输入框的value  
+此控件为常用的输入框 左边为输入框名称key,右边为输入框value  
 ![Image text](https://github.com/Smartisan1/InputViewDemo/blob/master/pictureDemo.jpg)
 
 使用方法
-第一 在Project 的build.gradle
+# 在Project 的build.gradle
 in your root build.gradle at the end of repositories:
 
 	allprojects {
@@ -12,7 +12,7 @@ in your root build.gradle at the end of repositories:
 			maven { url 'https://jitpack.io' }
 		}
 	}
-第二 在Moudle:App
+# 在Moudle:App
 Step 2. Add the dependency
 
 	dependencies {
@@ -20,9 +20,10 @@ Step 2. Add the dependency
 	}
 	
 	
-具体使用方法:
+# 具体使用方法:
 
 在布局文件中使用
+```
   <com.chenglin.inputviewlibrary.InputView
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -33,18 +34,24 @@ Step 2. Add the dependency
         app:valueSize="16sp"
         app:keyColor="#00ffff"
         app:valueRight="true"
-        ></com.chenglin.inputviewlibrary.InputView>
+        />
+```
 
 其中对应的key 和value 分别对应的是 左边的标题(TextView) 右边的输入框(EditText)
 
- <attr name="keySize" format="dimension" />                          // 标题文字大小
-        <attr name="keyColor" format="color" />                      //标题颜色
-        <attr name="key" format="string" />                          //标题内容
-        <attr name="padding" format="dimension"/>                    // 标题和输入框的左右内边距
-        <attr name="valueMargainLefttoParent" format="dimension" />       输入框距离屏幕左边的距离 dp
-        <attr name="valueSize" format="dimension" />                    //输入框文字大小
-        <attr name="valueColor" format="color" />
-        <attr name="valuehint" format="string"/>                     //输入框文字大小hint值
-        <attr name="valueRight" format="boolean"/>                   //输入框文字是否靠右对齐
-        <attr name="inputTypePassword" format="boolean"/>            // 输入框是否为密码格式
-        <attr name="digits" format="string"/>                        // 输入框的输入类型限制
+
+|参数|对应的值|
+|:---|:---|
+|key|名称文字值|
+|keySize|名称文字大小|
+|keyColor|名称文字颜色|
+|padding|名称和输入框的左右内边距|
+|valueMargainLefttoParent|输入框距离屏幕左边的距离 dp|
+|valueSize|输入框文字大小|
+|valueColor|输入框文字颜色|
+|valuehint|输入框文字大小hint值|
+|valueRight|输入框文字是否靠右对齐|
+|inputTypePassword|输入框是否为密码格式|
+|digits|输入框的输入类型限制|
+
+
