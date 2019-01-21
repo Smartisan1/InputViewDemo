@@ -37,7 +37,7 @@ Step 2. Add the dependency
         />
 ```
 
-其中对应的key 和value 分别对应的是 左边的标题(TextView) 右边的输入框(EditText)
+其中对应的key 和value 分别对应的是 左边的标题名称(TextView) 右边的输入框(EditText)
 
 
 |参数|对应的值|
